@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.nav_btn_1:hover {
+    background-color: #dadada !important;
+}
+
+
+.img-fluid {
+    /* font-size: 3vmax; */
+}
+.logo{
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.red_btn {
+    height:6vmax;
+    width: 6vmax;
+    border-radius: 50%;
+}
+.get_btn{
+    max-width: 19vmax;
+    font-size: small;
+}
+
+.para {
+    font-size: 14px;
+    
+}
+
+.box {
+    /* border: 2px solid red; */
+    background-color: white;
+    box-shadow: -1px -1px 17px rgba(0, 0, 0, 0.5);
+    max-height: 280px;
+    border-radius: 10px;
+}
+.transparent{
+    color: transparent!important;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: .8px;
+    
+}
+.white_btn{
+    font-size: 1.1vmax;
+}
+.transparent,.txt{
+    letter-spacing: .2vw;
+    font-size: 4.5vmax;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+@media (max-width: 400px) {
+    .transparent,.txt{
+        font-size: 2.7vmax;
+    }
+    
+}
+.form_box {
+    box-shadow: .3px .3px 8px rgba(0, 0, 0, 0.5);
+    max-height: 430px;
+    border-radius: 20px;
+    
+}
+
+.link {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+}
+.link a {
+    text-decoration: none;
+    color: white;
+}
+
+.pannel {
+    margin-bottom: 20px;
+}
+.h1_heading{
+    font-size: 3vw;
+    text-transform: capitalize;
+}
+.star{
+    width: 4.5vmax;
+}
+
+@media (max-width: 1050px) {
+    .h1_heading{
+        font-size: 2.6vmax;
+    }
+    .star{
+        width: 5vmax;
+    }
+    .star{
+        width: 6vmax;
+        height: 6vmax;
+    }
+}
+@media (min-width: 993px) {
+    .nav_ul {
+        margin-left: 10vw;
+    }
+
+}
+@media (max-width: 500px) {
+    .link {
+        gap: 10px;
+    }
+    .star{
+        width: 5vmax;
+        height: 5vmax;
+    }
+    
+    .link a {
+        font-size: 11px;
+    }
+    
+    div p,
+    .para,
+    h5 {
+        font-size: 9px;
+    }
+    .h1_heading{
+        font-size: 10px;
+    }
+    
+}
+.img-thumbnail{
+    border: none;
+}
+#para{
+    /* color: aqua; */
+    text-align: justify;
+}
+.r_2{
+    margin-top: 6vw;
+}
+@media (max-width: 350px) {
+    .link {
+        gap: 8px;
+    }
+    
+    .link a {
+        font-size: 10px;
+    }
+    
+    div p,
+    .para,
+    div h5 {
+        font-size: 7px;
+        
+    }
+    .h1_heading{
+        font-size: 8px;
+    }
+}
