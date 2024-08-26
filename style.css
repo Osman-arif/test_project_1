@@ -23,10 +23,12 @@ body {
 }
 
 .red_btn {
-    height:6vmax;
-    width: 6vmax;
-    border-radius: 50%;
-}
+    height:5vw;
+    width: 5vw;
+    min-width: 4vmax;
+    min-height: 4vmax;
+    max-width: 6vmax;
+    border-radius: 50%;}
 .get_btn{
     max-width: 19vmax;
     font-size: small;
@@ -40,15 +42,46 @@ body {
 .box {
     /* border: 2px solid red; */
     background-color: white;
-    box-shadow: -1px -1px 17px rgba(0, 0, 0, 0.5);
+    box-shadow: -1px -1px 17px rgba(0, 0, 0, 0.2);
     max-height: 280px;
     border-radius: 10px;
+}
+.carousel .carousel-item {
+    transition: transform .5s ease-out;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.container {
+    padding: 0 15px; 
+}
+.carousel-control-prev,
+.carousel-control-next {
+    width: 10%; 
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0,0,0,0.5); 
+}
+
+.carousel-control-prev {
+    left: 25px;
+}
+
+.carousel-control-next {
+    right: 25px; 
+}
+
+.box {
+    border: 1px solid rgba(0,0,0,0.3);
+    padding: 20px;
 }
 .transparent{
     color: transparent!important;
     -webkit-text-stroke-color: white;
-    -webkit-text-stroke-width: .8px;
-    
+    -webkit-text-stroke-width: .8px;   
 }
 .white_btn{
     font-size: 1.1vmax;
