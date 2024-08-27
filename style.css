@@ -93,6 +93,9 @@ body {
     text-transform: uppercase;
     font-weight: 500;
 }
+label{
+    margin-left: .3vw;
+}
 @media (max-width: 400px) {
     .transparent,.txt{
         font-size: 2.7vmax;
@@ -141,7 +144,7 @@ body {
 }
 @media (min-width: 993px) {
     .nav_ul {
-        margin-left: 10vw;
+        margin-left: 14vw;
     }
 
 }
