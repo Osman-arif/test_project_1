@@ -152,6 +152,11 @@ label{
     .link {
         gap: 10px;
     }
+    .logo_footer{
+    
+        max-width: 10px;
+        max-height:10px;
+    }
     .star{
         width: 5vmax;
         height: 5vmax;
@@ -188,6 +193,12 @@ label{
     
     .link a {
         font-size: 10px;
+    }
+    
+    .logo_footer{
+
+        max-width: 6px;
+        max-height: 6px;
     }
     
     div p,
