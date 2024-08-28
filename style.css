@@ -86,7 +86,7 @@ body {
 .white_btn{
     font-size: 1.1vmax;
 }
-.transparent,.txt{
+.transparent,.txt,.transparent_txt{
     letter-spacing: .2vw;
     font-size: 4.5vmax;
     color: whitesmoke;
@@ -131,7 +131,7 @@ label{
 }
 
 @media (max-width: 1050px) {
-    .h1_heading{
+    .h1_heading,.transparent,.transparent_txt{
         font-size: 2.6vmax;
     }
     .star{
@@ -171,7 +171,7 @@ label{
     h5 {
         font-size: 9px;
     }
-    .h1_heading{
+    .h1_heading,.transparent,.transparent_txt{
         font-size: 10px;
     }
     
