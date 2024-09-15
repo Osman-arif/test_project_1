@@ -19,11 +19,10 @@ body {
 }
 
 .red_btn {
-    height:4vw;
-    width: 4vw;
-    min-width: 3vmax;
-    min-height: 3vmax;
-    max-width: 5vmax;
+    height:4vmax;
+    width: 4vmax;
+    /* min-width: 2vmax; */
+    /* min-height: 2vmax; */
     border-radius: 50%;}
 .get_btn{
     max-width: 19vmax;
