@@ -102,6 +102,10 @@ label{
     .h1_long{
         margin-right: 13vw;
     }
+    .red_btn{
+        height: 4.5vmax;
+        width: 4.5vmax;
+    }
 
     
 }
